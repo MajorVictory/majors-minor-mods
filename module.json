@@ -2,7 +2,7 @@
 	"name": "mmm",
 	"title": "Major's Minor Mods",
 	"description": "A collection of personal mods.",
-	"version": "0.1",
+	"version": "1.0.0",
 	"author": "MajorVictory87",
 	"scripts": [ "mmm-scripts.js" ],
 	"styles": [ "mmm-styles.css" ],
@@ -105,11 +105,11 @@
 			"path": "packs/roll-tables.db",
 			"entity": "RollTable",
 			"module": "mmm"
-		},
+		}
 	],
 	"url": "https://github.com/MajorVictory/majors-minor-mods",
 	"manifest": "https://raw.githubusercontent.com/MajorVictory/majors-minor-mods/master/module.json",
-	"download": "https://github.com/MajorVictory/majors-minor-mods/releases/download/v0.1/Majors-Minor-Mods.zip",
+	"download": "https://github.com/MajorVictory/majors-minor-mods/releases/download/1.0.0/Majors-Minor-Mods.zip",
 	"minimumCoreVersion": "0.7.9",
 	"compatibleCoreVersion": "0.7.9"
 }
