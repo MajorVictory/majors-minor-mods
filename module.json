@@ -1,0 +1,115 @@
+{
+	"name": "mmm",
+	"title": "Major's Minor Mods",
+	"description": "A collection of personal mods.",
+	"version": "0.1",
+	"author": "MajorVictory87",
+	"scripts": [ "mmm-scripts.js" ],
+	"styles": [ "mmm-styles.css" ],
+	"esmodules": [],
+	"packs": [
+		{
+			"name": "creatures",
+			"label": "Creatures",
+			"path": "packs/creatures.db",
+			"entity": "Actor",
+			"module": "mmm"
+		},
+		{
+			"name": "backgrounds",
+			"label": "Backgrounds",
+			"path": "packs/backgrounds.db",
+			"entity": "Item",
+			"module": "mmm"
+		},
+		{
+			"name": "boons-and-charms",
+			"label": "Boons and Charms",
+			"path": "packs/boons-and-charms.db",
+			"entity": "Item",
+			"module": "mmm"
+		},
+		{
+			"name": "class-data",
+			"label": "Class Data",
+			"path": "packs/class-data.db",
+			"entity": "Item",
+			"module": "mmm"
+		},
+		{
+			"name": "conditions",
+			"label": "Conditions",
+			"path": "packs/conditions.db",
+			"entity": "Item",
+			"module": "mmm"
+		},
+		{
+			"name": "items",
+			"label": "Items",
+			"path": "packs/items.db",
+			"entity": "Item",
+			"module": "mmm"
+		},
+		{
+			"name": "pet-command-schools",
+			"label": "Pet Command Schools",
+			"path": "packs/pet-command-schools.db",
+			"entity": "Item",
+			"module": "mmm"
+		},
+		{
+			"name": "pet-commands",
+			"label": "Pet Commands",
+			"path": "packs/pet-commands.db",
+			"entity": "Item",
+			"module": "mmm"
+		},
+		{
+			"name": "races",
+			"label": "Races",
+			"path": "packs/races.db",
+			"entity": "Item",
+			"module": "mmm"
+		},
+		{
+			"name": "spells",
+			"label": "Spells",
+			"path": "packs/spells.db",
+			"entity": "Item",
+			"module": "mmm"
+		},
+		{
+			"name": "scenes",
+			"label": "Scenes",
+			"path": "packs/scenes.db",
+			"entity": "Scene",
+			"module": "mmm"
+		},
+		{
+			"name": "journals",
+			"label": "Journals",
+			"path": "packs/journals.db",
+			"entity": "JournalEntry",
+			"module": "mmm"
+		},
+		{
+			"name": "macros",
+			"label": "Macros",
+			"path": "packs/macros.db",
+			"entity": "Macro",
+			"module": "mmm"
+		},
+		{
+			"name": "roll-tables",
+			"label": "Roll Tables",
+			"path": "packs/roll-tables.db",
+			"entity": "RollTable",
+			"module": "mmm"
+		},
+	],
+	"url": "https://github.com/MajorVictory/majors-minor-mods",
+	"manifest": "https://raw.githubusercontent.com/MajorVictory/majors-minor-mods/master/module.json",
+	"download": "https://github.com/MajorVictory/majors-minor-mods/releases/download/v0.1/Majors-Minor-Mods.zip",
+	"minimumCoreVersion": "0.7.9",
+	"compatibleCoreVersion": "0.7.9"
+}
